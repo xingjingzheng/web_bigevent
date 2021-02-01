@@ -81,11 +81,9 @@ $('#form_login').on('submit',function(e){
       layer.msg('登录成功')
       // 登录成功得到token字符串 保存到locaStorage
       localStorage.setItem('token',res.token)
-      location.href = '/index.html'      
+      location.href = '/code/index1.html'      
     },
-    error:function(){
-      console.log(error);
-    }
+  
 
   })
 
